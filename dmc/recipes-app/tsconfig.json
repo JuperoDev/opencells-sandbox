@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "sourceMap": true,
+    "importHelpers": true,
+    "inlineSources": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "allowJs": true,
+    "maxNodeModuleJsDepth": 2,
+    "noImplicitAny": true
+  },
+ 
+  "include": [
+    "src/**/*",
+    "typings/@types/**/*.d.ts"
+  ],
+}
