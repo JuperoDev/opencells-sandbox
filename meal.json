@@ -1,0 +1,13 @@
+{
+    "meals": [
+        {
+            "strMeal": "Flamenquin Barranco",
+            "strMealThumb": "https://live.staticflickr.com/6089/6146695319_c1b6ebd28f_z.jpg",
+            "idMeal": "52874"
+        },
+        {
+            "strMeal": "Bacon Mug",
+            "strMealThumb": "https://26.media.tumblr.com/tumblr_l41kduXzOP1qc5kdko1_500.jpg",
+            "idMeal": "52878"
+        }]
+}

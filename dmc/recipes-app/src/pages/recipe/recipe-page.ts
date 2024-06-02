@@ -71,6 +71,7 @@ export class RecipePage extends PageTransitionsMixin(LitElement) {
 
       this._recipe = null;
       const recipe = await getMealDetailsById(this.params.recipeId);
+      console.log(recipe);
       this._recipe = recipe.meals[0];
     }
   }

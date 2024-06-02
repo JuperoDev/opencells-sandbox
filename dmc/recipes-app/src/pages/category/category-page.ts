@@ -85,6 +85,7 @@ export class CategoryPage extends PageTransitionsMixin(LitElement) {
     };
   }
 
+  // Default function we have 
   async firstUpdated(props: any) {
     super.firstUpdated(props);
 
@@ -95,6 +96,9 @@ export class CategoryPage extends PageTransitionsMixin(LitElement) {
 
     this._layout = this.querySelector('page-layout');
   }
+
+
+  
 
   render() {
     return html`
